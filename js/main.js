@@ -152,7 +152,7 @@ fetch(BREEDS_URL)
         },
         assignDislikes(){
             this.dislikes = this.yatesShuffle(this.dislikesList).slice(0,2)
-            document.getElementById('dislikes').innerHTML = `Dislikes: ${this.dislikes}, ${this.dislikes}`
+            document.getElementById('dislikes').innerHTML = `Dislikes: ${this.dislikes[0]}, ${this.dislikes[1]}`
         },
         assignFF(){
             this.fact = this.factList[Math.floor(Math.random()*this.factList.length)]
