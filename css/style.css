@@ -1,0 +1,46 @@
+html{
+    font-size: 2rem;
+    font-family: 'Franklin Gothic Light', 'Arial Narrow', Arial, Helvetica, sans-serif;
+    background: rgb(85,107,107);
+    background: radial-gradient(circle, rgba(85,107,107,1) 57%, rgba(67,131,37,1) 100%); 
+    height: 100vh;
+}
+header{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+select{
+    font-size: 1rem;
+}
+
+.section-container{
+    display: flex;
+    flex-direction: row;
+    padding-right: 10vw;
+    padding-left: 10vw;
+}
+
+.column{
+    flex: 1;
+}
+.left-column{
+    text-align: center;
+}
+
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
+
+span{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 1.3rem;
+}
+
+
+#dog-name{
+    font-size: 2rem;
+    text-decoration: none;
+}
