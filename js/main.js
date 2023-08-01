@@ -124,7 +124,7 @@ fetch(BREEDS_URL)
                 this.MF = "Male"
                 this.assignName(this.mNames)
             }
-            document.getElementById('MF').innerHTML = `S: ${this.MF}`
+            document.getElementById('MF').innerHTML = `Sex: ${this.MF}`
         },
         assignName(array){
             this.rname = array[Math.floor(Math.random()*array.length - 1)]
